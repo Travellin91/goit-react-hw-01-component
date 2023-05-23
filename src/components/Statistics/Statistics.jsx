@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './statistics.css';
+import './Statistics.css';
 
 export const Statistics = ({ title, stats }) => {
   return (
