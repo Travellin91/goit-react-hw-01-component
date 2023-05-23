@@ -16,14 +16,14 @@ export const FriendList = ({ friends }) => {
 };
 
 FriendList.propTypes = {
-    friends: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-        avatar: PropTypes.string,
-        name: PropTypes.string.isRequired,
-        isOnline: PropTypes.bool.isRequired,
-      })
-    ).isRequired,
-  };
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      avatar: PropTypes.string,
+      name: PropTypes.string.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+    })
+  ).isRequired,
+};
 
-export default FriendList
+export default FriendList;
