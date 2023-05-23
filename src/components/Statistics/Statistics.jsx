@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import Statistics from './statistics.css';
+import './statistics.css';
 
 
-export const statistics = ({ title, stats }) => {
+export const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
@@ -30,4 +30,4 @@ export const statistics = ({ title, stats }) => {
     ).isRequired,
   };
 
-export default statistics;
+export default Statistics;
